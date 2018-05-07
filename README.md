@@ -3,6 +3,8 @@ ember-action-services
 
 Action services contain immutable state and actions that mutate that state
 
+💡 If you have ideas for the direction of this addon, please open an issue. I'd love to hear your thoughts!
+
 Installation
 ------------------------------------------------------------------------------
 
