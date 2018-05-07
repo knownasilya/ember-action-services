@@ -1,3 +1,31 @@
-<h2 id="title">Welcome to Ember</h2>
+<h1>Action Services</h1>
+<p>
+  Action services let you share actions and state across multiple components and
+  controller/template combos in a safe way.
+  <br><br>
+  An action service defines immutable state, which can only be modified by calling `setState`
+  on that service. The developer then creates actions on that service, and modifies the state
+  using `setState`. Note that async actions work using `async/await`.
+</p>
+<br>
+<br>
+
+<button type='button' onclick={{action 'duplicate' target=userState}}>
+	Duplicate With Action Service
+</button>
+<button type='button' onclick={{action 'duplicate'}}>
+	Duplicate Manually (throw)
+</button>
+<button type='button' onclick={{action 'setName' target=userState}}>
+	Test Nested
+</button>
+<button type='button' onclick={{action 'setName'}}>
+	Test Manually Nested (throw)
+</button>
+
+
+<hr>
+userId: {{userState.state.cloneUser}}<br>
+testName: {{userState.state.test.name}}
 
 {{outlet}}

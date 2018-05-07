@@ -1,12 +1,15 @@
 {
   "name": "ember-action-services",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Action services contain immutable state and actions that mutate it",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "actions",
+    "service",
+    "immutable"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Ilya Radchenko",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -23,6 +26,7 @@
     "ember-cli-babel": "^6.6.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~3.1.4",
