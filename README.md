@@ -1,12 +1,12 @@
 ember-action-services
-==============================================================================
+=====================
 
 Action services contain immutable state and actions that mutate that state
 
 💡 If you have ideas for the direction of this addon, please open an issue. I'd love to hear your thoughts!
 
 Installation
-------------------------------------------------------------------------------
+------------
 
 ```
 ember install ember-action-services
@@ -14,7 +14,7 @@ ember install ember-action-services
 
 
 Usage
-------------------------------------------------------------------------------
+-----
 
 Action services let you share actions and state across multiple components and controller/template combos in a safe way.
 
@@ -97,7 +97,7 @@ User was cloned {{userStateService.state.cloneUser}} times.
 
 
 Contributing
-------------------------------------------------------------------------------
+------------
 
 ### Installation
 
@@ -124,6 +124,6 @@ Contributing
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 License
-------------------------------------------------------------------------------
+-------
 
 This project is licensed under the [MIT License](LICENSE.md).
