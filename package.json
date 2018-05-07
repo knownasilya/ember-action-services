@@ -1,6 +1,6 @@
 {
   "name": "ember-action-services",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Action services contain immutable state and actions that mutate it",
   "keywords": [
     "ember-addon",
